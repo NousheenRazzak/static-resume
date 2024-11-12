@@ -116,9 +116,7 @@ ul li a:hover{
 }
 
 .profile{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 65px;
+    margin-bottom: 55px;
 }
 
 .profile img{
@@ -171,6 +169,10 @@ input{
     margin-left: 5px;
 }
 
+.resume-right-part img{
+    display: none;
+}
+
 .resume-right-part h3{
     color: #147467;
 }
@@ -208,7 +210,8 @@ input{
 
 @media (max-width: 425px) and (min-width: 320px){
     .resume{
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
     }
     .resume-left-part{
         width: 100%;
@@ -219,6 +222,14 @@ input{
         width: 100%;
         margin: 0;
         padding: 15px;
+    }
+    .resume-right-part img{
+        display: block;
+        width: 150px;
+        margin: auto;
+    }
+    .profile{
+        display: none;
     }
     h2{
         font-size: 30px;
