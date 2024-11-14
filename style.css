@@ -181,6 +181,10 @@ input{
     color: #147467;
 }
 
+.click{
+    cursor: pointer;
+}
+
 @media (min-width: 1025px){
     .template{
         width: 60%;

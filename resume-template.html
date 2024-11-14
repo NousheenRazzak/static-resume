@@ -32,19 +32,21 @@
                         </div>
                         <div class="contact">
                             <i class="fa fa-solid fa-address-card"></i>
-                            <h3>Contacts</h3>
+                            <h3 onclick="contact()" class="click">Contacts</h3>
                         </div>
-                        <div class="contact-info"><i class="fs fa-solid fa-phone"></i><p>0302-2373818</p></div>
-                        <div class="contact-info"><i class="fs fa-solid fa-at"></i><p>hello@iamnousheen.com</p></div>
-                        <div class="contact-info"><i class="fs fa-brands fa-linkedin-in"></i><p>in/nousheen-a-razzak/</p></div>
-                        <div class="contact-info"><i class="fs fa-solid fa-location-dot"></i><p>Karachi</p></div>
+                        <div id="contact-click">
+                            <div class="contact-info"><i class="fs fa-solid fa-phone"></i><p>0302-2373818</p></div>
+                            <div class="contact-info"><i class="fs fa-solid fa-at"></i><p>hello@iamnousheen.com</p></div>
+                            <div class="contact-info"><i class="fs fa-brands fa-linkedin-in"></i><p>in/nousheen-a-razzak/</p></div>
+                            <div class="contact-info"><i class="fs fa-solid fa-location-dot"></i><p>Karachi</p></div>
+                        </div>
                     </div>
                     <div class="details">
                         <div class="contact">
                             <i class="fa fa-solid fa-laptop"></i>
-                            <h3>Skills</h3>
+                            <h3 onclick="skills()" class="click">Skills</h3>
                         </div>
-                        <ul>
+                        <ul id="skills-click">
                             <li>HTML5 & CSS3</li>
                             <li>JavaScript & TypeScript</li>
                             <li>React & Nextjs</li>
@@ -55,28 +57,32 @@
                     <div class="details">
                         <div class="contact">
                             <i class="fa fa-solid fa-award"></i>
-                            <h3>Courses</h3>
+                            <h3 onclick="courses()" class="click">Courses</h3>
                         </div>
-                        <p class="paragraph title">Full-Stack Web Development</p>
-                        <p class="paragraph">Udemy - 2023</p>
-                        
-                        <p class="paragraph title">HTML5 & CSS</p>
-                        <p class="paragraph">WP Academy - 2022</p>
-                        
-                        <p class="paragraph title">Technical WordPress SEO</p>
-                        <p class="paragraph">LinkedIn Learning - 2021</p>
-                        
-                        <p class="paragraph title">WordPress Developer</p>
-                        <p class="paragraph">Digiskills - 2021</p>
+                        <div id="courses-click">
+                            <p class="paragraph title">Full-Stack Web Development</p>
+                            <p class="paragraph">Udemy - 2023</p>
+                            
+                            <p class="paragraph title">HTML5 & CSS</p>
+                            <p class="paragraph">WP Academy - 2022</p>
+                            
+                            <p class="paragraph title">Technical WordPress SEO</p>
+                            <p class="paragraph">LinkedIn Learning - 2021</p>
+                            
+                            <p class="paragraph title">WordPress Developer</p>
+                            <p class="paragraph">Digiskills - 2021</p>
+                        </div>
                     </div>
                     <div class="details">
                         <div class="contact">
                             <i class="fa fa-solid fa-book-open-reader"></i>
-                            <h3>Hobbies</h3>
+                            <h3 onclick="hobbies()" class="click">Hobbies</h3>
                         </div>
-                        <p class="paragraph">Reading Books</p>
-                        <p class="paragraph">Outdoor Sports</p>
-                        <p class="paragraph">Drawing</p>
+                        <div id="hobbies-click">
+                            <p class="paragraph">Reading Books</p>
+                            <p class="paragraph">Outdoor Sports</p>
+                            <p class="paragraph">Drawing</p>
+                        </div>
                     </div>
                 </div>
                 <div class="resume-right-part">
@@ -87,9 +93,9 @@
                     <div class="details">
                         <div class="contact">
                             <i class="fa fa-solid fa-list"></i>
-                            <h3>Summary</h3>
+                            <h3 onclick="summary()" class="click">Summary</h3>
                         </div>
-                        <p class="paragraph">I am a qualified WordPress developer with 1.5 years of
+                        <p class="paragraph" id="summary-click">I am a qualified WordPress developer with 1.5 years of
                             experience designing and creating responsive WordPress
                             websites and Landing pages. Proficient in all aspects of
                             WordPress website creation, including design,
@@ -100,8 +106,9 @@
                     <div class="details">
                         <div class="contact">
                             <i class="fa fa-solid fa-building"></i>
-                            <h3>Experience</h3>
+                            <h3 onclick="experience()" class="click">Experience</h3>
                         </div>
+                       <div id="experience-click">
                         <p class="paragraph title">Manhattan Data LLC</p>
                         <p class="paragraph">WordPress Developer</p>
                         <p class="paragraph">2022 - Present</p>
@@ -112,26 +119,29 @@
                             <li>Theme cutomization and plugin setting</li>
                             <li>Building custom projects on React, and Nextjs</li>
                         </ul>
+                       </div>
                     </div>
                     <div class="details">
                         <div class="contact">
                             <i class="fa fa-solid fa-user-graduate"></i>
-                            <h3>Education</h3>
+                            <h3 onclick="education()" class="click">Education</h3>
                         </div>
-                        <p class="paragraph title">Bachelor of Commerce</p>
-                        <p class="paragraph">2016</p>
-                        <p class="paragraph">Govt, Commerce College</p>
-
-                        <p class="paragraph title">Matriculation</p>
-                        <p class="paragraph">2010</p>
-                        <p class="paragraph">Kutiyana Memon Association</p>
+                        <div id="education-click">
+                            <p class="paragraph title">Bachelor of Commerce</p>
+                            <p class="paragraph">2016</p>
+                            <p class="paragraph">Govt, Commerce College</p>
+    
+                            <p class="paragraph title">Matriculation</p>
+                            <p class="paragraph">2010</p>
+                            <p class="paragraph">Kutiyana Memon Association</p>
+                        </div>
                     </div>
                     <div class="details">
                         <div class="contact">
                             <i class="fa fa-solid fa-trophy"></i>
-                            <h3>Projects</h3>
+                            <h3 onclick="projects()" class="click">Projects</h3>
                         </div>
-                        <ul>
+                        <ul id="projects-click">
                             <li><a href="https://nousheen-portfolio.vercel.app/" target="_blank">Portfolio Website</a></li>
                             <li><a href="https://positivus-landing-page-alpha.vercel.app/" target="_blank">Positivus</a></li>
                             <li><a href="https://recognify-beta.vercel.app/" target="_blank">Recognify</a></li>
@@ -143,5 +153,6 @@
         </div>
     </main>
 
+    <script src="app.js"></script>
 </body>
 </html>
